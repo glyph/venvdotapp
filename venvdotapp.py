@@ -25,6 +25,9 @@ def appify_env(envdir):
             CFBundleName=envname,
             CFBundlePackageType='APPL',
             NSAppleScriptEnabled=True,
+            CFBundleInfoDictionaryVersion="6.0",
+            NSHighResolutionCapable=True,
+            CFBundleDevelopmentRegion="English",
         ), f)
 
     script_text = """\
