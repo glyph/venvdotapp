@@ -42,3 +42,6 @@ def appify_env(envdir):
 def main():
     envdir = os.path.dirname(os.path.dirname(sys.executable))
     appify_env(envdir)
+
+if __name__ == '__main__':
+    main()
