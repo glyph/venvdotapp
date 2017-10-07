@@ -1,9 +1,15 @@
+
+"""
+Transform a virtual environment into a valid `.app` so that it can do .app-y
+things on OS X, such as displaying notifications.
+
+Thanks to http://blog.gmc.uy/2015/08/mac-os-notifications-python-pyobjc.html
+for the clues on how to do this.
+"""
+
 import os
 import sys
 import plistlib
-
-# thanks to http://blog.gmc.uy/2015/08/mac-os-notifications-python-pyobjc.html
-# for some pointers.
 
 def appify_env(envdir):
     envname = os.path.basename(envdir)
