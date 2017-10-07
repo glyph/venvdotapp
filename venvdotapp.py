@@ -2,6 +2,9 @@ import os
 import sys
 import plistlib
 
+# thanks to http://blog.gmc.uy/2015/08/mac-os-notifications-python-pyobjc.html
+# for some pointers.
+
 def appify_env(envdir):
     envname = os.path.basename(envdir)
     appdir = os.path.join(envdir, 'bin', envname + '.app', 'Contents')
