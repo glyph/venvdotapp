@@ -7,7 +7,7 @@ Thanks to http://blog.gmc.uy/2015/08/mac-os-notifications-python-pyobjc.html
 for the clues on how to do this.
 """
 
-__version__ = '0.0.1'
+__version__ = '0.0.2'
 
 import os
 import sys
