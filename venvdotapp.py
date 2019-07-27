@@ -88,6 +88,7 @@ def _appify_env(envdir, bundle_id=None):
             CFBundleInfoDictionaryVersion="6.0",
             NSHighResolutionCapable=True,
             CFBundleDevelopmentRegion="English",
+            NSRequiresAquaSystemAppearance=False,
         ), f)
 
     os.symlink(realpython, apppy)
