@@ -50,3 +50,7 @@ require_bundle()
 
 Note that this will raise an exception if your base Python is not a framework
 build and therefore not capable of displaying a GUI.
+
+## AI Policy
+
+VEnvDotApp follows the [Twisted AI Policy](https://docs.twisted.org/en/latest/development/ai-policy.html). This means this project does not allow the inclusion of the outputs of generative AI tools.
